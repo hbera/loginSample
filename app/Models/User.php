@@ -7,7 +7,7 @@ use Illuminate\Contracts\Auth\Authenticatable as AuthenticableContract;
 
 class User extends Authenticatable implements AuthenticableContract
 {
-    protected $table = "usuario";
+    protected $table = "usuarios";
     protected $primaryKey = "id_usuario";
     public $timestamps;
 

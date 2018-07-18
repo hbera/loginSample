@@ -11,7 +11,7 @@ class Perfil extends Model
     
     public $timestamps = false;
     
-    protected $fillable = [];
+    protected $fillable = ["desc_perfil", "nm_nivel"];
     
     protected $visible = ["id_perfil", "desc_perfil", "nm_nivel"];
     
